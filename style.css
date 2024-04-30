@@ -1,0 +1,53 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('image/tempel.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color: #333; 
+    text-align: center;
+    display: flex; /* Gør body til en flex container */
+    justify-content: center; /* Centrerer indholdet horisontalt */
+    align-items: center; /* Centrerer indholdet lodret */
+    height: 100vh; /* Sætter body til at fylde hele skærmens højde */
+    margin: 0; /* Fjerner standardmargin */
+}
+
+
+#nodeContainer {
+    padding: 20px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.5); /* Let gennemsigtighed */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 80%; /* Tilpasser bredden til 80% af containerens parent */
+    max-width: 800px; /* Sætter en maksimal bredde for større skærme */
+}
+
+
+#nodeTitle { 
+    font-size: 24px; 
+    margin-top: 20px; 
+}
+
+#nodeDescription { 
+    margin-top: 10px; 
+    margin-bottom: 20px;
+}
+
+.choiceButton { 
+    margin-left: 5px; /* Tilføj dette for mellemrum til siden */
+    margin-right: 5px; /* Tilføj dette for mellemrum til siden */
+
+    margin-top: 10px; 
+    padding: 10px 20px; 
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.choiceButton:hover {
+    background-color: #d8dadc;
+}
